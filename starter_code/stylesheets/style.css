@@ -180,3 +180,41 @@ header {
 }
 
 /* SECTION 2 */
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+    background-color: #F3EAE2;
+}
+
+.connectedness-box img {
+    width: 40vw;
+}
+
+.right-text {
+    width: 30vw;
+    margin-right: 150px;
+    margin-top: -65px;
+}
+
+.right-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.right-text p {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+    line-height: 25px;
+}
+
+.right-text a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* SECTION THREE */
+
