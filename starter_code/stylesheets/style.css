@@ -290,3 +290,76 @@ header {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
+/* SECTION 5 */
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.section-five h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+}
+
+.section-five > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.sfive-btns {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    width: 50vw;
+    margin-bottom: 50px;
+}
+
+.sfive-btns button {
+    border-color: #540B51;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 15px 27px;
+    border-radius: 5px;
+}
+
+.sfive-btn-one {
+    background-color: #540B51;
+    color: white;
+}
+
+.sfive-btn-two {
+    color:  #540B51;
+    background-color: white;
+}
+
+.stat-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 80vw;
+}
+
+.stat-list li {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.stat-list span {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #540B51;
+}
+
+.stat-list p {
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
