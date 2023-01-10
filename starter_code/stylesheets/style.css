@@ -8,3 +8,62 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-div {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.left-div img {
+    width: 100px;
+}
+
+.left-div ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.right-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+}
+
+.right-div ul {
+    display: flex;
+    justify-content: space-between;
+    width: 16vw;
+}
+
+.try-free {
+    background-color: white;
+    color: #540B51;
+    padding: 8px;
+    border-radius: 5px;
+}
