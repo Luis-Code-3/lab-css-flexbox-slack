@@ -218,3 +218,37 @@ header {
 
 /* SECTION THREE */
 
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+    background-color: #F3EAE2;
+}
+
+.flexibility-box img {
+    width: 40vw;
+}
+
+.left-text {
+    width: 30vw;
+    margin-left: 150px;
+    margin-top: -65px;
+}
+
+.left-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.left-text p {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+    line-height: 25px;
+}
+
+.left-text a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
