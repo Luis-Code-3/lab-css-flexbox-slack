@@ -73,6 +73,8 @@ li a {
     border-radius: 5px;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     justify-content: center;
@@ -149,3 +151,32 @@ header {
 .header-right img {
     width: 40vw;
 }
+
+/* SECTION 1 */
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #F3EAE2;
+}
+
+.section-one p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.logos {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.logos img {
+    height: 5vh;
+}
+
+/* SECTION 2 */
