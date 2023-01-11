@@ -363,3 +363,46 @@ header {
     font-weight: 600;
     font-size: 14px;
 }
+
+/* SECTION SIX */
+
+.section-six {
+    height: 300px;
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-six h3 {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.section-six-btns {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-six-btns button {
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 35px;
+}
+
+.six-btn-one {
+    background-color: white;
+    color: #540B51;
+}
+
+.six-btn-two {
+    background-color: #540B51;
+    color: white;
+}
