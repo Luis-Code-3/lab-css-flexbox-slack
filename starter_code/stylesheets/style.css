@@ -406,3 +406,45 @@ header {
     background-color: #540B51;
     color: white;
 }
+
+/* SECTION SEVEN / FOOTER */
+
+.section-seven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    background-color: #F3EAE2;
+}
+
+.section-seven img {
+    width: 4%;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.about-list li {
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
